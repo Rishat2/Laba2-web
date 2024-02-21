@@ -1,0 +1,73 @@
+.header{
+    text-align: center;
+    font-size: 40px;
+    color: blue;
+    font-style: italic;
+    padding: 15px 0px 20px 0px;
+}
+
+.firstcol{
+    width: 20%;
+    align: center;
+    text-align: center;
+}
+
+.select{
+    padding: 0px 0px 20px 0px;
+}
+
+.button{
+    font-size: 30px;
+    background: blue;
+    color: white;
+}
+
+.button:hover{
+    color:red;
+    text-decoration: underline;
+}
+
+button:focus, select:focus, input[type="radio"]:focus, input[type="text"]:focus{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+}
+
+.picture{
+    text-align: center;
+}
+
+.table{
+    text-align: center;
+}
+
+.fon{
+    width: 100%;
+    height: 730px;
+    background-image: url("../img/NY2.png");
+    color: blue;
+}
+
+.buttonClear{
+    text-align: center;
+    vertical-align: bottom;
+}
+
+/*#buttonClear{
+    font-size: 30px;
+    background: blue;
+    color: white;
+}
+
+#buttonClear:hover{
+    color:red;
+    text-decoration: underline;
+}*/
+
+.canvas{
+    text-align: center;
+}
+
+#c1{
+    height: 290px;
+    width: 290px;
+    border: 3px solid black;
+}
